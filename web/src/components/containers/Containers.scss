@@ -1,0 +1,28 @@
+@import '../../variables';
+@import '../../helpers';
+.container {
+  font-weight: 300;
+}
+.newContainerFormGroup>label {
+  width: 30%;
+  margin: 5px 0;
+}
+.newContainerFormGroup>input {
+  display: inline-block;
+}
+.containerInputText {
+  @extend .input-text;
+  min-height: auto;
+  margin: 5px 0;
+}
+.input-error {
+  padding: 2px;
+}
+.containerList {
+  width: 50%;
+  float: left;
+}
+.newContainer {
+  width: 50%;
+  float: right;
+}

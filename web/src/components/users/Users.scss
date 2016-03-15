@@ -1,0 +1,28 @@
+@import '../../variables';
+@import '../../helpers';
+.client {
+  font-weight: 300;
+}
+.newClientFormGroup>label {
+  width: 30%;
+  margin: 5px 0;
+}
+.newClientFormGroup>input {
+  display: inline-block;
+}
+.usernameInputText {
+  @extend .input-text;
+  min-height: auto;
+  margin: 5px 0;
+}
+.input-error {
+  padding: 2px;
+}
+.clientList {
+  width: 50%;
+  float: left;
+}
+.newClient {
+  width: 50%;
+  float: right;
+}
